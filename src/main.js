@@ -4,7 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Auth from './packages/auth'
+import VueAxios from './packages/vue-axios'
 Vue.use(Auth)
+Vue.use(VueAxios)
 
 require('./assets/sass/main.scss')
 
